@@ -24,8 +24,10 @@ import 'cypress-catch-async-tests'
 it('works', () => { ... })
 
 // this test will generate an error right away
-it('catches async', async () => { ... })
+it('async callback', async () => { ... })
 ```
+
+![Async callback error](./images/error.png)
 
 ## See also
 
