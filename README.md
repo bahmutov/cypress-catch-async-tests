@@ -27,6 +27,7 @@ it('catches async', async () => { ... })
 
 ## See also
 
+- example repo [cypress-catch-async-tests-example](https://github.com/bahmutov/cypress-catch-async-tests-example)
 - Cypress issue [#4742](https://github.com/cypress-io/cypress/issues/4742)
 - [Visualize Cypress Command Queue](https://glebbahmutov.com/blog/visualize-cypress-command-queue/) blog post
 

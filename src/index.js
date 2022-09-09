@@ -23,6 +23,8 @@ it = function syncIt(title, config, callback) {
           Cypress tests run once through the test to queue all commands
           into its command queue, there is no need for "async/await" calls.
 
+          Caught by [cypress-catch-async-tests](https://github.com/bahmutov/cypress-catch-async-tests) plugin.
+
           See issue [#4742](https://github.com/cypress-io/cypress/issues/4742) and [Visualize Cypress Command Queue](https://glebbahmutov.com/blog/visualize-cypress-command-queue/)
         `,
       )
