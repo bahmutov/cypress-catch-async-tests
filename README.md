@@ -2,6 +2,8 @@
 
 > Prevents accidentally passing an async function as the test callback in Cypress
 
+- 📺 [Catch Accidental Async Callbacks In Cypress Tests](https://youtu.be/3RyqCv_TlE8)
+
 ## Install
 
 Add this plugin as a dev dependency
