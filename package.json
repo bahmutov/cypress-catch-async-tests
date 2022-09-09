@@ -1,0 +1,34 @@
+{
+  "name": "cypress-catch-async-tests",
+  "version": "1.0.0",
+  "description": "Prevents accidentally passing an async function as the test callback in Cypress",
+  "main": "src/index.js",
+  "files": [
+    "src"
+  ],
+  "scripts": {
+    "test": "cypress-expect run --expect-exactly results.json",
+    "badges": "npx -p dependency-version-badge update-badge cypress"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bahmutov/cypress-catch-async-tests.git"
+  },
+  "keywords": [
+    "cypress-plugin"
+  ],
+  "author": "Gleb Bahmutov <gleb.bahmutov@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bahmutov/cypress-catch-async-tests/issues"
+  },
+  "homepage": "https://github.com/bahmutov/cypress-catch-async-tests#readme",
+  "devDependencies": {
+    "cypress": "^10.7.0",
+    "cypress-expect": "^2.5.3",
+    "prettier": "^2.7.1"
+  },
+  "dependencies": {
+    "common-tags": "^1.8.2"
+  }
+}
